@@ -8,5 +8,5 @@ im01 = Image.open("123123.jpg")  #路径不能包含中文，要打双斜线
 draw = ImageDraw.Draw(im01)
 draw.text((100,6),'4', fill=(255,0,0),font=font)
 #draw.text((10,6),u'晚上', fill=(255,0,0),font=font)
-#draw.text((50,6),unicode('白天','utf-8'), fill=(255,0,0),font=font)
+#draw.text((50,6),unicode('白天','utf-8'), fill=(255,0,0),font=font) # python2版本使用
 im01.show()
